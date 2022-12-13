@@ -121,20 +121,7 @@ body <- dashboardBody(tabItems(
                    )
           )
           
-          # ,fluidRow(
-          #   column(width = 9, offset = 0,
-          #          
-          #          box(width = 12, 
-          #              title = tags$b('Frequently Asked Questions (FAQ)'), 
-          #              solidHeader = TRUE, 
-          #              status = 'primary',
-          #              "THIS PAGE WILL LOOK MUCH NICER AFTER THE REST OF THE APP IS COMPLETED!!",
-          #              tags$br(), 
-          #              "Once I finish all of the app's features, it will be much easier to type up its instructions.")
-          #          
-          #          )
-          # )     
-          ),
+          
   
   # ----- Data Import Page -----
   tabItem(tabName = "importData",
